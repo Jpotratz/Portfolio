@@ -85,8 +85,8 @@ li a:hover {
 #wrapper {
   margin-right: auto;
   margin-left: auto;
-  min-width: 700px;
-  max-width: 1024px;
+  min-width: 1200px;
+  max-width: 1600px;
   background-color: #f1f1f1;
   color: #000066;
 }
