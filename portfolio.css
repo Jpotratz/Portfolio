@@ -56,7 +56,7 @@ img {
 }
 
 main {
-  padding-left: 210px;
+  padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
   background-color: #f1f1f1;
@@ -81,6 +81,37 @@ li a:hover {
   background-color: #555;
   color: white;
 }
+label {
+  align: center;
+  float: left;
+  display: block;
+  text-align: right;
+  width: 20em;
+  padding-right: 1em;
+}
+
+input {
+  align: center;
+  display: block;
+  margin-bottom: 1em;
+}
+
+textarea {
+  align: center;
+  display: block;
+  margin-bottom: 1em;
+}
+
+.error {
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  font-size: .90em;
+  color: #FF0000;
+  margin-left: 1em;
+}
+#mySubmit {
+  margin-left: 27em;
+}
 
 #wrapper {
   margin-right: auto;
@@ -90,7 +121,11 @@ li a:hover {
   background-color: #f1f1f1;
   color: #000066;
 }
-
+#center {
+  margin: auto;
+    width: 50%;
+    padding: 10px;
+}
 a:link {
   color: #3262A3;
 }
