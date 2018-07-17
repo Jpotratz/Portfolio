@@ -1,25 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<script>
-  function validateForm() {
-    var email = document.getElementById('Email').value;
-    var emptyname = document.getElementById('Name').value.length;
-    var emptyemail = document.getElementById('Email').value.length;
-    if (emptyname < 1) {
-      alert("Please type a value into 'Name' ")
-      return false;
-    }
-    if (emptyemail < 1) {
-      alert("Please type a value into 'Email' ")
-      return false;
-    }
-    if (!email.includes('@')) {
-      alert("Please type a valid e-mail address");
-      return false;
-    }
-    return true;
-  }
-</script>
 
 <head>
   <link rel="stylesheet" href="portfolio.css">
@@ -32,11 +12,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-
 <body>
   <div id="wrapper">
     <header>
-      <h1 class="header-site">Contact Information</h1>
+      <h1 class="header-site">Contact</h1>
     </header>
     <nav>
       <div class="topnav">
@@ -53,8 +32,8 @@
     <main>
       <div id="center">
         <dl>
-          <dt class="category" align=center></dt>
-          <dd align=center>
+          <dt class="category"></dt>
+          <dd>
             <br>
             <a href="https://www.linkedin.com/in/james-potratz-86824589">
           <img src="linkedin.png" height="50" width="175" alt="LinkedIn"/></a>
@@ -62,7 +41,7 @@
             <a href="https://github.com/Jpotratz">
           <img src="github.png" height="40" width="175" alt="GitHub"/></a>
           </dd>
-          <p align=center> If you wish to contact me directly please fill out the information below </p>
+         <dd>If you wish to contact me directly please fill out the information below.</dd>
 
           <form action="mailto:james.potratz@gmail.com" method="POST">
             <label for="Name"> * Name: </label>
@@ -79,5 +58,6 @@
     </footer>
   </div>
 </body>
+
 
 </html>
