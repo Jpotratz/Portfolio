@@ -6,6 +6,8 @@ body {
   font-family: Verdana;
   color: #D5E3FF;
   background-image: url("images/background.jpg");
+  background-size: 200%;
+  background-repeat: no-repeat;
 }
 
 header {
@@ -57,26 +59,17 @@ main {
   padding: 20px;
   background-color: #f1f1f1;
 }
-
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #f1f1f1;
+   display: inline-block;
+   text-align: left;
+ }
+ ul b {
+     display: inline-block;
+     margin: 10px 0 10px -20px;
+ }
+li {
+  margin: 10px 0 10px -20px;
 }
-
-li a {
-  display: block;
-  color: #000;
-  padding: 8px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #555;
-  color: white;
-}
-
 label {
   float: left;
   display: block;
