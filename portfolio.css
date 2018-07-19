@@ -5,11 +5,11 @@ header, main, footer {
 body {
   font-family: Verdana;
   color: #D5E3FF;
-  background-image: url("background.jpg");
+  background-image: url("images/background.jpg");
 }
 
 header {
-  background-image: url("background.jpg");
+  background-image: url("images/background.jpg");
   color: #f1f1f1
 }
 
