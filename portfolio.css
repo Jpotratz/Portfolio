@@ -59,17 +59,21 @@ main {
   padding: 20px;
   background-color: #f1f1f1;
 }
+
 ul {
-   display: inline-block;
-   text-align: left;
- }
- ul b {
-     display: inline-block;
-     margin: 10px 0 10px -20px;
- }
-li {
+  display: inline-block;
+  text-align: left;
+}
+
+ul b {
+  display: inline-block;
   margin: 10px 0 10px -20px;
 }
+
+li {
+  margin: 10px 0 10px;
+}
+
 label {
   float: left;
   display: block;
