@@ -97,7 +97,8 @@ textarea {
   font-style: italic;
   font-size: .90em;
   color: #FF0000;
-  margin-left: -200px;
+  float: none;
+  width: auto;
 }
 
 #mySubmit {
