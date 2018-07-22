@@ -1,46 +1,45 @@
 <!DOCTYPE html>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
 <html lang="en">
 
 <head>
   <link rel="stylesheet" href="portfolio.css">
-  <!--[if lt IE 9]>
-<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
-</script>
-<![endif]-->
   <title>James Potratz Contact</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+  </script>
+  <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.0/jquery.validate.js">
+  </script>
+  <script>
+    function validateForm() {
+      var email = document.getElementById('Email').value;
+      var emptyname = document.getElementById('Name').value.length;
+      var emptyemail = document.getElementById('Email').value.length;
+      if (emptyname < 1) {
+        alert("Please type a value into 'Name' ")
+        return false;
+      }
+      if (emptyemail < 1) {
+        alert("Please type a value into 'Email' ")
+        return false;
+      }
+      if (!email.includes('@')) {
+        alert("Please type a valid e-mail address");
+        return false;
+      }
+      return true;
+    }
+  </script>
+  <script>
+    $(document).ready(function() {
+      $('form').validate();
+    });
+  </script>
 </head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
-</script>
-<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.0/jquery.validate.js">
-</script>
-<script>
-  function validateForm() {
-    var email = document.getElementById('Email').value;
-    var emptyname = document.getElementById('Name').value.length;
-    var emptyemail = document.getElementById('Email').value.length;
-    if (emptyname < 1) {
-      alert("Please type a value into 'Name' ")
-      return false;
-    }
-    if (emptyemail < 1) {
-      alert("Please type a value into 'Email' ")
-      return false;
-    }
-    if (!email.includes('@')) {
-      alert("Please type a valid e-mail address");
-      return false;
-    }
-    return true;
-  }
-</script>
-
-<script>
-  $(document).ready(function() {
-    $('form').validate();
-  });
-</script>
 
 <body>
   <div id="wrapper">

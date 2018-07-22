@@ -62,16 +62,14 @@ main {
 
 ul {
   display: inline-block;
+  margin: 10px 0 10px -20px;
+  font-weight: bold;
   text-align: left;
 }
 
-ul b {
-  display: inline-block;
-  margin: 10px 0 10px -20px;
-}
-
 li {
-  margin: 10px 0 10px;
+  margin: 10px 0 10px 20px;
+  font-weight: normal;
 }
 
 label {
@@ -140,7 +138,11 @@ input[type=button], input[type=submit], input[type=reset] {
   margin: auto;
   width: 50%;
 }
-
+#title {
+  display: inline-block;
+  margin: 10px 0 10px -20px;
+  font-weight: bold;
+}
 a:link {
   color: #3262A3;
 }
