@@ -140,7 +140,6 @@ input[type=button], input[type=submit], input[type=reset] {
 }
 #title {
   display: inline-block;
-  margin: 10px 0 10px -20px;
   font-weight: bold;
 }
 a:link {
